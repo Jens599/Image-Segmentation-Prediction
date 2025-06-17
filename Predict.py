@@ -6,11 +6,8 @@ from huggingface_hub import hf_hub_download, snapshot_download
 from pathlib import Path
 
 # Hugging Face model configuration
-# Replace with your Hugging Face model ID (e.g., 'username/model-name')
-HF_MODEL_ID = "your-huggingface-username/your-model-name"
-
-# Model filename in the repository (e.g., 'model_weights.h5')
-MODEL_FILENAME = "model_weights.h5"
+HF_MODEL_ID = "Jenssss/basic_image_segmentatin"
+MODEL_FILENAME = "model.h5"
 
 from tensorflow.keras.layers import (
     Conv2D,
