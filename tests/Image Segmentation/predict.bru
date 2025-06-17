@@ -1,0 +1,19 @@
+meta {
+  name: predict
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://127.0.0.1:5000/predict
+  body: multipartForm
+  auth: inherit
+}
+
+headers {
+  Content-Type: multipart/form-data
+}
+
+body:multipart-form {
+  image: @file(C:\Users\workj\Documents\jensProjects\Image Segmentation applied\input\Image_07.jpg)
+}

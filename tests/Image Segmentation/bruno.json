@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Image Segmentation",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
