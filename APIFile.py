@@ -7,6 +7,11 @@ import traceback
 import cv2
 from datetime import datetime
 
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+import absl.logging
+absl.logging.set_verbosity(absl.logging.ERROR)
+
+
 # Import relevant functions from Predict.py
 from Predict import load_model_weights, predict_single_image
 
